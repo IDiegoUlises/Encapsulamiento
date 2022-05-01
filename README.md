@@ -6,3 +6,36 @@ Protegido (Protected): Podemos decir que estás no son de acceso público, solam
 
 Privado (Private): En este nivel se puede declarar miembros accesibles sólo para la propia clase.
 
+```c++
+class Encapsulado
+{
+  private:
+    int x;
+
+  public:
+    void set(int a)
+    {
+      x = a;
+    }
+
+    int get()
+    {
+      return x;
+    }
+};
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Encapsulado objeto;
+
+  objeto.set(5);
+  Serial.println(objeto.get());
+  delay(1000);
+}
+```
+
+
