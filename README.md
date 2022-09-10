@@ -25,7 +25,7 @@ class Encapsulado
 };
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(9600); //Inicia el puerto serial
 }
 
 void loop()
