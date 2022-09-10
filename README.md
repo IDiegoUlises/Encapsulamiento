@@ -1,10 +1,12 @@
 # Encapsulamiento editar
 
-La encapsulación es un concepto de programación orientada a objetos en los datos de la función y la manipulación de los datos unidas entre sí, así que para evitar la interferencia externa y el mal uso, garantizando así la seguridad. encapsulación de datos salen de otros importantes conceptos de POO, a saber,ocultación de datos.
+La encapsulacion es un concepto de programacion orientada a objetos en los datos de la funcion y la manipulacion de los datos para evitar la interferencia externa y el mal uso, garantizando asi la seguridad para la ocultacion de datos.
 
-Protegido (Protected): Podemos decir que estás no son de acceso público, solamente son accesibles dentro de su clase y por subclases.
+Publico (Public): Acceso desde cualquier clase.
 
-Privado (Private): En este nivel se puede declarar miembros accesibles sólo para la propia clase.
+Protegido (Protected): Estas no son de acceso publico, solamente son accesibles dentro de su clase y por subclases.
+
+Privado (Private): En este nivel se puede declarar miembros accesibles solo para la propia clase.
 
 ```c++
 class Encapsulado
