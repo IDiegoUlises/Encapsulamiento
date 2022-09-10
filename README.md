@@ -23,6 +23,7 @@ class Encapsulado
       return x;
     }
 };
+
 void setup()
 {
   Serial.begin(9600); //Inicia el puerto serial
