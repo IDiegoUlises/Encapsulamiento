@@ -1,6 +1,6 @@
-# Encapsulamiento editar
+# Encapsulamiento
 
-La encapsulacion es un concepto de programacion orientada a objetos en los datos de la funcion y la manipulacion de los datos para evitar la interferencia externa y el mal uso, garantizando asi la seguridad para la ocultacion de datos.
+La encapsulacion es un concepto de programacion orientada a objetos en los datos y la manipulacion de los datos para evitar la interferencia externa y el mal uso, garantizando asi la seguridad con la ocultacion de datos.
 
 Publico (Public): Acceso desde cualquier clase.
 
