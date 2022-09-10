@@ -35,7 +35,7 @@ void loop()
 
   objeto.set(5); //Define el valor
   Serial.println(objeto.get()); //Obtiene el objeto oculto
-  delay(5000);
+  delay(5000); //Retardo de 5 segundos
 }
 ```
 
